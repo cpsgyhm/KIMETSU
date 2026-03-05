@@ -75,7 +75,9 @@ function filterProducts() {
 function renderPage(items) {
   const start = (currentPage-1)*itemsPerPage;
   const end = start + itemsPerPage;
-  displayProducts(items.slice(start,end), items.length);
+  const pageItems = items.slice(start,end);
+
+  displayProducts(pageItems, items.length);
   setupPagination(items);
 }
 
@@ -100,12 +102,10 @@ function displayProducts(items, totalCount) {
           <button class="favorite-btn ${isFavorite(item.id)?'favorited':''}" onclick="toggleFavorite(${item.id})">
             ${isFavorite(item.id)?'❤️':'🤍'}
           </button>
-          <button class="owned-btn ${owned.includes(item.id) ? 'owned' : ''}" 
-        onclick="toggleOwned(${item.id})">
-  ${owned.includes(item.id) ? '🌟' : '⭐️'}
-</button>
+          <button class="owned-btn ${owned.includes(item.id) ? 'owned' : ''}" onclick="toggleOwned(${item.id})">
+            ✔
+          </button>
         </div>
-
 
         <h3>${item.name}</h3>
         <p>價格：${item.price.toLocaleString("ja-JP",{style:"currency",currency:"JPY"})}</p>
@@ -120,7 +120,7 @@ function displayProducts(items, totalCount) {
     container.innerHTML += card;
   });
 
-  // 補空白卡片，固定每頁 8 個
+  // ===== 固定每頁 8 個 =====
   const placeholders = itemsPerPage - items.length;
   for(let i=0;i<placeholders;i++){
     container.innerHTML += `<div class="card placeholder"></div>`;
@@ -140,7 +140,7 @@ function setupPagination(items) {
 }
 
 function changePage(page){
-  currentPage=page;
+  currentPage = page;
   filterProducts();
 }
 
@@ -162,16 +162,16 @@ function addSliderEvents() {
 
 // ====== 收藏系統 ======
 function toggleFavorite(id){
-  if(favorites.includes(id)) favorites=favorites.filter(f=>f!==id);
+  if(favorites.includes(id)) favorites = favorites.filter(f=>f!==id);
   else favorites.push(id);
   localStorage.setItem("favorites",JSON.stringify(favorites));
   filterProducts();
 }
-function isFavorite(id){return favorites.includes(id);}
+function isFavorite(id){ return favorites.includes(id); }
 
 // ====== 擁有系統 ======
 function toggleOwned(id){
-  if(owned.includes(id)) owned=owned.filter(o=>o!==id);
+  if(owned.includes(id)) owned = owned.filter(o=>o!==id);
   else owned.push(id);
   localStorage.setItem("owned",JSON.stringify(owned));
   filterProducts();
@@ -179,24 +179,24 @@ function toggleOwned(id){
 
 // ====== 顯示模式按鈕 ======
 function updateModeButtons(){
-  document.getElementById("show-all-btn").classList.toggle("active",viewMode==="all");
-  document.getElementById("show-fav-btn").classList.toggle("active",viewMode==="fav");
-  document.getElementById("show-owned-btn").classList.toggle("active",viewMode==="owned");
+  document.getElementById("show-all-btn").classList.toggle("active", viewMode==="all");
+  document.getElementById("show-fav-btn").classList.toggle("active", viewMode==="fav");
+  document.getElementById("show-owned-btn").classList.toggle("active", viewMode==="owned");
 }
 
-document.getElementById("show-all-btn").addEventListener("click",()=>{
-  viewMode="all";currentPage=1;filterProducts();updateModeButtons();
+document.getElementById("show-all-btn").addEventListener("click", ()=>{
+  viewMode="all"; currentPage=1; filterProducts(); updateModeButtons();
 });
-document.getElementById("show-fav-btn").addEventListener("click",()=>{
-  viewMode="fav";currentPage=1;filterProducts();updateModeButtons();
+document.getElementById("show-fav-btn").addEventListener("click", ()=>{
+  viewMode="fav"; currentPage=1; filterProducts(); updateModeButtons();
 });
-document.getElementById("show-owned-btn").addEventListener("click",()=>{
-  viewMode="owned";currentPage=1;filterProducts();updateModeButtons();
+document.getElementById("show-owned-btn").addEventListener("click", ()=>{
+  viewMode="owned"; currentPage=1; filterProducts(); updateModeButtons();
 });
 
 // ====== 篩選監聽 ======
 ["search-input","series-filter","type-filter","character1-filter","character2-filter"].forEach(id=>{
-  document.getElementById(id).addEventListener("input",()=>{currentPage=1;filterProducts();});
-  document.getElementById(id).addEventListener("change",()=>{currentPage=1;filterProducts();});
-
+  const el = document.getElementById(id);
+  el.addEventListener("input", ()=>{ currentPage=1; filterProducts(); });
+  el.addEventListener("change", ()=>{ currentPage=1; filterProducts(); });
 });
