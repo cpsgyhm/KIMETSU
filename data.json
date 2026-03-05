@@ -8,6 +8,7 @@
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 900,
+    "checkboxOptions": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20339.webp?1772602637000"]
   },
   {
@@ -19,7 +20,8 @@
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 550,
-    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20340.webp?1772602637000"]
+    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20340.webp?1772602637000"],
+    "checkboxOptions": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"]
   },
   {
     "id": 3,
@@ -59,8 +61,8 @@
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20346.webp?1772602637000",
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20348.webp?1772602637000",
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20349.webp?1772602637000",
-      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20350.webp?1772602637000"
-    ]
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20350.webp?1772602637000"],
+    "checkboxOptions": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"]
   },
   {
     "id": 6,
@@ -79,7 +81,8 @@
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20369.webp?1772602637000",
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20370.webp?1772602637000",
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20371.webp?1772602637000"
-    ]
+    ],
+    "checkboxOptions": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"]
   },
   {
     "id": 7,
@@ -90,7 +93,8 @@
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 440,
-    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20341.webp?1772602637000"]
+    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20341.webp?1772602637000"],
+    "checkboxOptions": ["富岡義勇A","竈門炭治郎A","我妻善逸A","栗花落香奈乎A","胡蝶忍A","甘露寺蜜璃A","伊黑小芭內A","富岡義B勇","竈門炭治郎B","我妻善逸B","栗花落香奈乎B","胡蝶忍B","甘露寺蜜璃B","伊黑小芭內B"]
   },
   {
     "id": 8,
@@ -109,7 +113,8 @@
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20355.webp?1772602637000",
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20356.webp?1772602637000",
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20357.webp?1772602637000"
-    ]
+    ],
+    "checkboxOptions": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"]
   },
   {
     "id": 9,
@@ -128,7 +133,8 @@
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20362.webp?1772602637000",
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20363.webp?1772602637000",
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20364.webp?1772602637000"
-    ]
+    ],
+    "checkboxOptions": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"]
   },
   {
     "id": 10,
@@ -139,6 +145,8 @@
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 1800,
-    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20372.webp?1772602637000"]
+    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20372.webp?1772602637000"],
+    "checkboxOptions": ["竈門炭治郎","竈門禰豆子","我妻善逸","嘴平伊之助","栗花落香奈乎","不死川玄彌","富岡義勇","胡蝶忍","煉獄杏壽郎","宇髓天元","時透無一郎","甘露寺蜜璃","不死川實彌","伊黑小芭內","悲鳴嶼行冥"]
   }
 ]
+
