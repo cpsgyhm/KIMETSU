@@ -2,8 +2,11 @@
 let products = [];
 let currentPage = 1;
 const itemsPerPage = 8;
-let favorites = JSON.parse(localStorage.getItem("favorites")) || [];
-let owned = JSON.parse(localStorage.getItem("owned")) || [];
+
+// 保證 localStorage 讀取的 id 都是字串
+let favorites = (JSON.parse(localStorage.getItem("favorites")) || []).map(String);
+let owned = (JSON.parse(localStorage.getItem("owned")) || []).map(String);
+
 let viewMode = "all"; // "all" / "fav" / "owned"
 
 // ====== 讀取 JSON ======
@@ -66,7 +69,7 @@ function filterProducts() {
   });
 
   if(viewMode === "fav") filtered = filtered.filter(item => isFavorite(item.id));
-  else if(viewMode === "owned") filtered = filtered.filter(item => owned.includes(item.id));
+  else if(viewMode === "owned") filtered = filtered.filter(item => owned.includes(String(item.id)));
 
   renderPage(filtered);
 }
@@ -171,10 +174,11 @@ function toggleFavorite(id){
   localStorage.setItem("favorites",JSON.stringify(favorites));
   filterProducts();
 }
+function isFavorite(id){ return favorites.includes(String(id)); }
 
 // ====== 擁有系統 ======
 function toggleOwned(id){
-  id = String(id); // 保證 id 與陣列型態一致
+  id = String(id);
   if(owned.includes(id)) owned = owned.filter(o=>o!==id);
   else owned.push(id);
   localStorage.setItem("owned",JSON.stringify(owned));
@@ -204,6 +208,3 @@ document.getElementById("show-owned-btn").addEventListener("click", ()=>{
   el.addEventListener("input", ()=>{ currentPage=1; filterProducts(); });
   el.addEventListener("change", ()=>{ currentPage=1; filterProducts(); });
 });
-
-
-
