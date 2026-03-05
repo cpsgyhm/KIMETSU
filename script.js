@@ -100,12 +100,12 @@ function displayProducts(items, totalCount) {
 
         <div class="card-buttons">
           <!-- 願望清單按鈕 -->
-          <button class="favorite-btn ${isFavorite(item.id)?'favorited':''}" onclick="toggleFavorite(${item.id})">
+          <button class="favorite-btn ${isFavorite(item.id)?'favorited':''}" onclick="toggleFavorite('${item.id}')">
             ${isFavorite(item.id)?'❤️':'🤍'}
           </button>
 
           <!-- 已擁有按鈕 -->
-          <button class="owned-btn ${owned.includes(String(item.id)) ? 'owned' : ''}" onclick="toggleOwned(${item.id})">
+          <button class="owned-btn ${owned.includes(String(item.id)) ? 'owned' : ''}" onclick="toggleOwned('${item.id}')">
             ${owned.includes(String(item.id)) ? '🌟' : '⭐️'}
           </button>
         </div>
@@ -174,7 +174,7 @@ function toggleFavorite(id){
 
 // ====== 擁有系統 ======
 function toggleOwned(id){
-  id = String(id);
+  id = String(id); // 保證 id 與陣列型態一致
   if(owned.includes(id)) owned = owned.filter(o=>o!==id);
   else owned.push(id);
   localStorage.setItem("owned",JSON.stringify(owned));
@@ -204,5 +204,6 @@ document.getElementById("show-owned-btn").addEventListener("click", ()=>{
   el.addEventListener("input", ()=>{ currentPage=1; filterProducts(); });
   el.addEventListener("change", ()=>{ currentPage=1; filterProducts(); });
 });
+
 
 
