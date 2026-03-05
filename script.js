@@ -102,9 +102,9 @@ function displayProducts(items, totalCount) {
           <button class="favorite-btn ${isFavorite(item.id)?'favorited':''}" onclick="toggleFavorite(${item.id})">
             ${isFavorite(item.id)?'❤️':'🤍'}
           </button>
-          <button class="owned-btn ${owned.includes(item.id) ? 'owned' : ''}" onclick="toggleOwned(${item.id})">
-            ✔
-          </button>
+         <button class="owned-btn ${owned.includes(item.id) ? 'owned' : ''}">
+  ${owned.includes(item.id) ? '🌟' : '⭐️'}
+</button>
         </div>
 
         <h3>${item.name}</h3>
@@ -200,3 +200,4 @@ document.getElementById("show-owned-btn").addEventListener("click", ()=>{
   el.addEventListener("input", ()=>{ currentPage=1; filterProducts(); });
   el.addEventListener("change", ()=>{ currentPage=1; filterProducts(); });
 });
+
