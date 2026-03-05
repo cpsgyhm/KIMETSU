@@ -99,12 +99,15 @@ function displayProducts(items, totalCount) {
         </div>
 
         <div class="card-buttons">
+          <!-- 願望清單按鈕 -->
           <button class="favorite-btn ${isFavorite(item.id)?'favorited':''}" onclick="toggleFavorite(${item.id})">
             ${isFavorite(item.id)?'❤️':'🤍'}
           </button>
-         <button class="owned-btn ${owned.includes(item.id) ? 'owned' : ''}">
-  ${owned.includes(item.id) ? '🌟' : '⭐️'}
-</button>
+
+          <!-- 已擁有按鈕 -->
+          <button class="owned-btn ${owned.includes(String(item.id)) ? 'owned' : ''}" onclick="toggleOwned(${item.id})">
+            ${owned.includes(String(item.id)) ? '🌟' : '⭐️'}
+          </button>
         </div>
 
         <h3>${item.name}</h3>
@@ -120,7 +123,7 @@ function displayProducts(items, totalCount) {
     container.innerHTML += card;
   });
 
-  // ===== 固定每頁 8 個 =====
+  // ===== 固定每頁 8 個占位卡片 =====
   const placeholders = itemsPerPage - items.length;
   for(let i=0;i<placeholders;i++){
     container.innerHTML += `<div class="card placeholder"></div>`;
@@ -162,15 +165,16 @@ function addSliderEvents() {
 
 // ====== 收藏系統 ======
 function toggleFavorite(id){
+  id = String(id);
   if(favorites.includes(id)) favorites = favorites.filter(f=>f!==id);
   else favorites.push(id);
   localStorage.setItem("favorites",JSON.stringify(favorites));
   filterProducts();
 }
-function isFavorite(id){ return favorites.includes(id); }
 
 // ====== 擁有系統 ======
 function toggleOwned(id){
+  id = String(id);
   if(owned.includes(id)) owned = owned.filter(o=>o!==id);
   else owned.push(id);
   localStorage.setItem("owned",JSON.stringify(owned));
@@ -200,4 +204,5 @@ document.getElementById("show-owned-btn").addEventListener("click", ()=>{
   el.addEventListener("input", ()=>{ currentPage=1; filterProducts(); });
   el.addEventListener("change", ()=>{ currentPage=1; filterProducts(); });
 });
+
 
