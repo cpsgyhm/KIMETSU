@@ -100,11 +100,40 @@ h1{text-align:center;color:#222;margin-bottom:20px;}
 #show-all-btn:hover,#show-fav-btn:hover,#show-owned-btn:hover{background-color:#6c63ff;color:#fff;}
 
 /* ====== 手機自適應 ====== */
-@media(max-width:768px){#search-input,#series-filter,#type-filter,#character1-filter,#character2-filter{width:90%;margin:5px auto;}}
+/* ====== 保持四格，但手機等比例縮小 ====== */
+@media (max-width: 768px) {
+  #product-list {
+    grid-template-columns: repeat(4, 1fr); /* 保留四格 */
+    grid-auto-rows: 350px; /* 卡片高度縮小 */
+    gap: 12px; /* 縮小間距 */
+  }
+
+  .card {
+    transform: scale(0.8);  /* 整個卡片等比例縮小 */
+    transform-origin: top center; /* 從頂部中心縮放 */
+  }
+
+  .image-slider img {
+    height: 100%;   /* 保持圖片完整顯示 */
+    object-fit: cover; /* 填滿卡片，但保留比例 */
+  }
+}
+
+@media (max-width: 480px) {
+  #product-list {
+    grid-auto-rows: 250px; 
+    gap: 10px;
+  }
+
+  .card {
+    transform: scale(0.7);
+  }
+}
 
 /* ====== 水之呼吸 Footer ====== */
 .water-footer{position:relative;margin-top:50px;padding:40px 10px 20px 10px;text-align:center;font-size:14px;color:#fff;background:linear-gradient(to top,#1a3b6e,#2a5cab);overflow:hidden;}
 .water-wave{position:absolute;bottom:0;left:0;width:200%;height:60px;background:rgba(255,255,255,0.2);border-radius:1000% 1000% 0 0;animation:waveMove 6s linear infinite;}
 .water-wave:nth-child(2){bottom:10px;background:rgba(255,255,255,0.15);animation-duration:10s;opacity:0.6;}
 @keyframes waveMove{0%{transform:translateX(0) translateY(0) scaleX(1);}50%{transform:translateX(-25%) translateY(-5px) scaleX(1.05);}100%{transform:translateX(-50%) translateY(0) scaleX(1);}}
+
 .water-footer p{position:relative;z-index:2;margin:0;font-weight:bold;text-shadow:0 0 8px rgba(0,0,50,0.5);}
