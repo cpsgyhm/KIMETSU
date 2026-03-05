@@ -1,44 +1,42 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>鬼滅周邊圖鑑</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鬼滅周邊圖鑑</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <h1>鬼滅之刃周邊圖鑑</h1>
 
-<h1>鬼滅之刃周邊圖鑑</h1>
+  <!-- 搜尋 + 篩選 -->
+  <div class="search-row">
+    <input type="text" id="search-input" placeholder="搜尋商品名稱或角色...">
+  </div>
+  <div class="filter-row">
+    <select id="series-filter"><option value="">選擇系列</option></select>
+    <select id="type-filter"><option value="">選擇類型</option></select>
+    <select id="character1-filter"><option value="">選擇角色1</option></select>
+    <select id="character2-filter"><option value="">選擇角色2</option></select>
+  </div>
 
-<!-- 搜尋 + 篩選區 -->
-<div class="search-row">
-  <input type="text" id="search-input" placeholder="搜尋商品名稱或角色...">
-</div>
-<div class="filter-row">
-  <select id="series-filter"><option value="">選擇系列</option></select>
-  <select id="type-filter"><option value="">選擇類型</option></select>
-  <select id="character1-filter"><option value="">選擇角色1</option></select>
-  <select id="character2-filter"><option value="">選擇角色2</option></select>
-</div>
+  <!-- 顯示模式 -->
+  <div style="text-align:center; margin:15px 0;">
+    <button id="show-all-btn">顯示全部商品</button>
+    <button id="show-fav-btn">願望清單 ❤️</button>
+    <button id="show-owned-btn">已經擁有 🌟</button>
+  </div>
 
-<!-- 收藏 / 擁有切換按鈕 -->
-<div style="text-align:center; margin:15px 0;">
-  <button id="show-all-btn">顯示全部商品</button>
-  <button id="show-fav-btn">願望清單 ❤️</button>
-  <button id="show-owned-btn">已經擁有 🌟</button>
-</div>
+  <!-- 商品列表 -->
+  <div id="product-list"></div>
 
-<!-- 商品顯示區 -->
-<div id="product-list"></div>
+  <footer class="water-footer">
+    <div class="water-wave"></div>
+    <div class="water-wave"></div>
+    <p>獻給我的推角 冨岡義勇</p>
+  </footer>
 
-<footer class="water-footer">
-  <div class="water-wave"></div>
-  <div class="water-wave"></div>
-  <p>獻給我的推角 冨岡義勇</p>
-</footer>
-
-<button id="backToTop">⬆</button>
-
-<script src="script.js"></script>
+  <button id="backToTop">⬆</button>
+  <script src="script.js"></script>
 </body>
 </html>
