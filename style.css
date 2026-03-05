@@ -1,183 +1,52 @@
 /* ====== 全域 ====== */
-body {
-    font-family:'Arial',sans-serif;
-    background-color:#f4f6ff;
-    margin:0;
-    padding:20px;
-    color:#333;
-}
+body { font-family:'Arial',sans-serif; background-color:#f4f6ff; margin:0; padding:20px; color:#333; }
 h1 { text-align:center; color:#222; margin-bottom:20px; }
 
-/* ====== 搜尋欄置中 ====== */
+/* 搜尋欄 */
 .search-row { text-align:center;margin-bottom:10px; }
-#search-input {
-    width:300px;
-    padding:10px 15px;
-    font-size:14px;
-    border:1px solid #d0d4ff;
-    border-radius:999px;
-    background-color:#fff;
-    outline:none;
-    transition:0.2s;
-}
+#search-input { width:300px; padding:10px 15px; font-size:14px; border:1px solid #d0d4ff; border-radius:999px; background-color:#fff; outline:none; transition:0.2s; }
 #search-input:focus { border-color:#6c63ff; box-shadow:0 0 5px rgba(108,99,255,0.3); }
 
-/* ====== 篩選欄 ====== */
-.filter-row {
-    display:flex;
-    justify-content:center;
-    gap:10px;
-    flex-wrap:wrap;
-    margin-bottom:15px;
-}
-#series-filter,#type-filter,#character1-filter,#character2-filter {
-    padding:10px 15px;
-    font-size:14px;
-    border:1px solid #d0d4ff;
-    border-radius:999px;
-    background-color:#fff;
-    outline:none;
-    transition:0.2s;
-}
-#series-filter:focus,#type-filter:focus,#character1-filter:focus,#character2-filter:focus {
-    border-color:#6c63ff;
-    box-shadow:0 0 5px rgba(108,99,255,0.3);
-}
+/* 篩選欄 */
+.filter-row { display:flex; justify-content:center; gap:10px; flex-wrap:wrap; margin-bottom:15px; }
+#series-filter,#type-filter,#character1-filter,#character2-filter { padding:10px 15px; font-size:14px; border:1px solid #d0d4ff; border-radius:999px; background-color:#fff; outline:none; transition:0.2s; }
+#series-filter:focus,#type-filter:focus,#character1-filter:focus,#character2-filter:focus { border-color:#6c63ff; box-shadow:0 0 5px rgba(108,99,255,0.3); }
 
-/* ====== 商品列表 ====== */
-#product-list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-auto-rows: auto;
-    gap: 20px;
-    margin-top: 20px;
-}
+/* 商品列表 */
+#product-list { display:grid; grid-template-columns:repeat(4,1fr); grid-auto-rows:auto; gap:20px; margin-top:20px; }
+.card { display:flex; flex-direction:column; justify-content:flex-start; background-color:#fff; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1); padding:10px; text-align:left; transition: transform 0.2s, box-shadow 0.2s; position:relative; min-height:450px; }
+.card:hover { transform:translateY(-5px); box-shadow:0 8px 16px rgba(0,0,0,0.15); }
 
-/* ====== 商品卡片 ====== */
-.card {
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-start;
-    background-color:#fff;
-    border-radius:12px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
-    padding:10px;
-    text-align:left;
-    transition: transform 0.2s, box-shadow 0.2s;
-    position:relative;
-    overflow:visible;
-    min-height: 480px;
-}
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow:0 8px 16px rgba(0,0,0,0.15);
-}
-
-/* ====== 圖片輪播 ====== */
-.image-slider {
-    position: relative;
-    width:100%;
-    padding-top:100%;
-    overflow:hidden;
-    border-radius:12px;
-    margin-bottom:10px;
-}
-.image-slider img {
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    object-fit:contain;
-    display:none;
-    border-radius:12px;
-    transition:opacity 0.4s ease-in-out;
-}
+/* 圖片輪播 */
+.image-slider { position:relative; width:100%; padding-top:100%; overflow:hidden; border-radius:12px; margin-bottom:10px; }
+.image-slider img { position:absolute; top:0; left:0; width:100%; height:100%; object-fit:contain; display:none; border-radius:12px; transition:opacity 0.4s ease-in-out; }
 .image-slider img.active { display:block; opacity:1; }
-.image-slider .prev,.image-slider .next {
-    position:absolute;
-    top:50%;
-    transform:translateY(-50%);
-    background-color:rgba(0,0,0,0.4);
-    color:#fff;
-    border:none;
-    border-radius:50%;
-    width:32px;
-    height:32px;
-    cursor:pointer;
-    font-size:18px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    transition:background 0.2s;
-    z-index:10; 
-}
+.image-slider .prev,.image-slider .next { position:absolute; top:50%; transform:translateY(-50%); background-color:rgba(0,0,0,0.4); color:#fff; border:none; border-radius:50%; width:32px; height:32px; cursor:pointer; font-size:18px; display:flex; align-items:center; justify-content:center; z-index:10; }
 .image-slider .prev:hover,.image-slider .next:hover { background-color:rgba(0,0,0,0.7); }
-.image-slider .prev{left:8px;}
-.image-slider .next{right:8px;}
+.image-slider .prev{left:8px;} .image-slider .next{right:8px;}
 
-/* ====== 收藏按鈕 ====== */
+/* 收藏 + 擁有按鈕 */
 .card-buttons { position:absolute; bottom:12px; right:12px; display:flex; gap:8px; z-index:5; }
 .favorite-btn { background:none; border:none; font-size:20px; cursor:pointer; transition:transform 0.2s ease; }
 .favorite-btn.favorited { color:#e74c3c; }
 .favorite-btn:hover { transform:scale(1.25); }
 
-/* ====== 角色多選 ====== */
-.card .owned-roles label { display:inline-block; margin-right:5px; font-size:12px; }
+/* 已擁有角色 checkbox */
+.owned-roles label { margin-right:6px; font-size:13px; }
 
-/* ====== 商品資訊 ====== */
-.card h3{ margin:5px 0; font-size:16px; color:#222; }
-.card p{ margin:3px 0; font-size:13px; color:#555; }
-.card .remark{ color:#999; }
+/* 顯示模式按鈕 */
+#show-all-btn,#show-fav-btn,#show-owned-btn { padding:8px 18px; margin:5px; border-radius:20px; border:1px solid #d0d4ff; background-color:#fff; cursor:pointer; transition:0.2s; }
+#show-all-btn.active,#show-fav-btn.active,#show-owned-btn.active { background-color:#6c63ff;color:#fff;border-color:#6c63ff; }
+#show-all-btn:hover,#show-fav-btn:hover,#show-owned-btn:hover { background-color:#6c63ff;color:#fff; }
 
-/* ====== 顯示模式按鈕 ====== */
-#show-all-btn,#show-fav-btn,#show-owned-btn{
-    padding:8px 18px; margin:5px;
-    border-radius:20px; border:1px solid #d0d4ff;
-    background-color:#fff; cursor:pointer; transition:0.2s;
-}
-#show-all-btn.active,#show-fav-btn.active,#show-owned-btn.active{
-    background-color:#6c63ff; color:#fff; border-color:#6c63ff;
-}
-#show-all-btn:hover,#show-fav-btn:hover,#show-owned-btn:hover{
-    background-color:#6c63ff; color:#fff;
-}
+/* 手機自適應 */
+@media(max-width:768px){ #search-input,#series-filter,#type-filter,#character1-filter,#character2-filter{ width:90%; margin:5px auto; } #product-list{ grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); } }
 
-/* ====== 手機自適應 ====== */
-@media(max-width:768px){
-    #search-input,#series-filter,#type-filter,#character1-filter,#character2-filter{
-        width:90%; margin:5px auto;
-    }
-    #product-list { grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }
-}
-
-/* ====== Footer ====== */
-.water-footer{
-    position: relative; margin-top:50px; padding:40px 10px 20px 10px;
-    text-align:center; font-size:14px; color:#fff;
-    background:linear-gradient(to top,#1a3b6e,#2a5cab);
-    overflow:hidden; z-index:0;
-}
-.water-wave{
-    position:absolute; bottom:0; left:0; width:200%; height:60px;
-    background:rgba(255,255,255,0.2);
-    border-radius:1000% 1000% 0 0;
-    animation:waveMove 6s linear infinite; z-index:-1;
-}
-.water-wave:nth-child(2){
-    bottom:10px;
-    background:rgba(255,255,255,0.15);
-    animation-duration:10s; opacity:0.6;
-}
-@keyframes waveMove{
-    0%{transform:translateX(0) translateY(0) scaleX(1);}
-    50%{transform:translateX(-25%) translateY(-5px) scaleX(1.05);}
-    100%{transform:translateX(-50%) translateY(0) scaleX(1);}
-}
+/* Footer 水之呼吸 */
+.water-footer{ position:relative; margin-top:50px; padding:40px 10px 20px 10px; text-align:center; font-size:14px; color:#fff; background:linear-gradient(to top,#1a3b6e,#2a5cab); overflow:hidden; z-index:0; }
+.water-wave{ position:absolute; bottom:0; left:0; width:200%; height:60px; background:rgba(255,255,255,0.2); border-radius:1000% 1000% 0 0; animation:waveMove 6s linear infinite; z-index:-1; }
+.water-wave:nth-child(2){ bottom:10px; background:rgba(255,255,255,0.15); animation-duration:10s; opacity:0.6; }
+@keyframes waveMove{ 0%{transform:translateX(0) translateY(0) scaleX(1);} 50%{transform:translateX(-25%) translateY(-5px) scaleX(1.05);} 100%{transform:translateX(-50%) translateY(0) scaleX(1);} }
 .water-footer p{ position:relative; z-index:2; margin:0; font-weight:bold; text-shadow:0 0 8px rgba(0,0,50,0.5); }
 
-#backToTop{
-  position:fixed; bottom:20px; right:20px;
-  padding:10px 14px; font-size:18px; border:none; border-radius:50%;
-  background:#333; color:white; display:none; cursor:pointer;
-}
+#backToTop{ position:fixed; bottom:20px; right:20px; padding:10px 14px; font-size:18px; border:none; border-radius:50%; background:#333; color:white; display:none; cursor:pointer; }
