@@ -82,38 +82,52 @@ function filterProducts() {
 }
 
 // ====== 顯示商品 ======
-function displayProducts(items,totalCount){
+function displayProducts(items, totalCount){
   const container = document.getElementById("product-list");
   container.innerHTML = "";
 
   items.forEach(item=>{
-    const imagesHTML = item.images.map((img,i)=>`<img src="${img}" class="product-image ${i===0?'active':''}" loading="lazy">`).join("");
+    const images = item.images || [];
+    const imagesHTML = images.map((img,i)=>`<img src="${img}" class="product-image ${i===0?'active':''}" loading="lazy">`).join("");
 
-    const ownedCheckboxes = item.characters.map(c=>{
-      const checked = owned[item.id]?.includes(c)?"checked":"";
-      return `<label><input type="checkbox" onchange="toggleOwnedRole('${item.id}','${c}',this.checked)" ${checked}> ${c}</label>`;
-    }).join(" ");
+    // ====== 勾選框完全可自訂 ======
+    // 如果商品有 checkboxOptions 就生成勾選框，沒有就只顯示文字
+    let ownedDisplay = "";
+    if(item.checkboxOptions && item.checkboxOptions.length > 0){
+      ownedDisplay = item.checkboxOptions.map(opt=>{
+        const checked = owned[item.id]?.includes(opt) ? "checked" : "";
+        return `<label><input type="checkbox" onchange="toggleOwnedRole('${item.id}','${opt}',this.checked)" ${checked}> ${opt}</label>`;
+      }).join(" ");
+    } else {
+      // 顯示包含的項目文字或角色
+      ownedDisplay = item.characters ? `包含角色：${item.characters.join("、")}` : "";
+      // 若已擁有也加上標記
+      if(owned[item.id] && owned[item.id].length > 0) ownedDisplay += " （已擁有）";
+    }
 
     const card = `
       <div class="card">
         <div class="image-slider">
-          ${item.images.length>1?'<button class="prev">❮</button>':''}
+          ${images.length>1?'<button class="prev">❮</button>':''}
           ${imagesHTML}
-          ${item.images.length>1?'<button class="next">❯</button>':''}
+          ${images.length>1?'<button class="next">❯</button>':''}
         </div>
+
         <div class="card-buttons">
-          <button class="favorite-btn ${favorites.includes(String(item.id))?'favorited':''}" onclick="toggleFavorite('${item.id}')">
-            ${favorites.includes(String(item.id))?'❤️':'🤍'}
+          <button class="favorite-btn ${isFavorite(item.id)?'favorited':''}" onclick="toggleFavorite('${item.id}')">
+            ${isFavorite(item.id)?'❤️':'🤍'}
           </button>
         </div>
+
         <h3>${item.name}</h3>
         <p>價格：${item.price.toLocaleString("ja-JP",{style:"currency",currency:"JPY"})}</p>
-        <p>角色：${item.characters.join("、")}</p>
+        <p>角色：${item.characters ? item.characters.join("、") : "無"}</p>
         <p>系列：${item.series}</p>
         <p>類型：${item.type}</p>
         <p>製造商：${item.manufacturer}</p>
         <p>初販日期：${item.releaseDate}</p>
-        <p class="owned-roles">已擁有角色：${ownedCheckboxes}</p>
+        ${item.remark?`<p class="remark">備註：${item.remark}</p>`:''}
+        <p class="owned-roles">${ownedDisplay}</p>
       </div>
     `;
     container.innerHTML += card;
@@ -188,3 +202,4 @@ window.addEventListener("scroll",()=>{
 const backBtn = document.getElementById("backToTop");
 window.addEventListener("scroll",()=>{ backBtn.style.display = window.scrollY>600?"block":"none"; });
 backBtn.addEventListener("click",()=>window.scrollTo({top:0, behavior:"smooth"}));
+
