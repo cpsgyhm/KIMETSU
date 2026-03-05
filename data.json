@@ -1,580 +1,144 @@
 [
   {
     "id": 1,
-    "name": "干支2026午年立牌（隨機）",
+    "name": "干支2026馬年立牌（隨機）",
     "series": "2026干支午年",
-    "character": "竈門炭治郎、我妻善逸、栗花落香奈乎、富岡義勇、胡蝶忍、甘露寺蜜璃、伊黑小芭內",
+    "characters": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "立牌",
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 900,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20339.webp?1772602637000"
-  ]
+    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20339.webp?1772602637000"]
   },
   {
     "id": 2,
-    "name": "干支2026午年燙金徽章（隨機）",
+    "name": "干支2026馬年燙金徽章（隨機）",
     "series": "2026干支午年",
-    "character": "竈門炭治郎、我妻善逸、栗花落香奈乎、富岡義勇、胡蝶忍、甘露寺蜜璃、伊黑小芭內",
+    "characters": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "徽章",
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 550,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20340.webp?1772602637000"
-  ]
+    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20340.webp?1772602637000"]
   },
   {
     "id": 3,
-    "name": "干支2026午年A4收納夾",
+    "name": "干支2026馬年A4收納夾",
     "series": "2026干支午年",
-    "character": "竈門炭治郎、我妻善逸、栗花落香奈乎、富岡義勇、胡蝶忍、甘露寺蜜璃、伊黑小芭內",
+    "characters": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "收納夾",
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 900,
-    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20342.webp?1772602637000"
-  ]
+    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20342.webp?1772602637000"]
   },
   {
     "id": 4,
-    "name": "干支2026午年紅包袋&貼紙組",
+    "name": "干支2026馬年紅包袋&貼紙組",
     "series": "2026干支午年",
-    "character": "竈門炭治郎、我妻善逸、栗花落香奈乎、富岡義勇、胡蝶忍、甘露寺蜜璃、伊黑小芭內",
+    "characters": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "其他",
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 1300,
-    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20343.webp?1772602637000"
-  ]
+    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20343.webp?1772602637000"]
   },
   {
     "id": 5,
-    "name": "干支2026午年徽章小袋",
+    "name": "干支2026馬年徽章小袋",
     "series": "2026干支午年",
-    "character": "竈門炭治郎、我妻善逸、栗花落香奈乎、富岡義勇、胡蝶忍、甘露寺蜜璃、伊黑小芭內",
+    "characters": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "其他",
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 2400,
     "images": [
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20344.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20345.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20346.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20347.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20348.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20349.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20350.webp?1772602637000"
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20347.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20344.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20345.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20346.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20348.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20349.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20350.webp?1772602637000"
     ]
   },
   {
     "id": 6,
-    "name": "干支2026午年等身大掛軸",
+    "name": "干支2026馬年等身大掛軸",
     "series": "2026干支午年",
-    "character": "竈門炭治郎、我妻善逸、栗花落香奈乎、富岡義勇、胡蝶忍、甘露寺蜜璃、伊黑小芭內",
+    "characters": ["竈門炭治郎","富岡義勇","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "掛軸",
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 8000,
-    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20365.webp?1772602637000",
-  "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20366.webp?1772602637000",
-  "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20367.webp?1772602637000",
-  "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20368.webp?1772602637000",
-  "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20369.webp?1772602637000",
-  "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20370.webp?1772602637000",
-  "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20371.webp?1772602637000"
-  ]
+    "images": [
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20365.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20366.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20367.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20368.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20369.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20370.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20371.webp?1772602637000"
+    ]
   },
   {
     "id": 7,
-    "name": "干支2026午年小卡（隨機）",
+    "name": "干支2026馬年小卡（隨機）",
     "series": "2026干支午年",
-    "character": "竈門炭治郎、我妻善逸、栗花落香奈乎、富岡義勇、胡蝶忍、甘露寺蜜璃、伊黑小芭內",
+    "characters": ["竈門炭治郎","富岡義勇","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "卡片",
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 440,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20341.webp?1772602637000"
-  ]
+    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20341.webp?1772602637000"]
   },
   {
     "id": 8,
-    "name": "干支2026午年繪馬風吊飾",
+    "name": "干支2026馬年繪馬風吊飾",
     "series": "2026干支午年",
-    "character": "竈門炭治郎、我妻善逸、栗花落香奈乎、富岡義勇、胡蝶忍、甘露寺蜜璃、伊黑小芭內",
+    "characters": ["竈門炭治郎","富岡義勇","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "吊飾",
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 1300,
-    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20351.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20352.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20353.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20354.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20355.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20356.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20357.webp?1772602637000"
-  ]
+    "images": [
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20351.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20352.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20353.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20354.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20355.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20356.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20357.webp?1772602637000"
+    ]
   },
   {
     "id": 9,
-    "name": "干支2026午年屏風壓克力板",
+    "name": "干支2026馬年屏風壓克力板",
     "series": "2026干支午年",
-    "character": "竈門炭治郎、我妻善逸、栗花落香奈乎、富岡義勇、胡蝶忍、甘露寺蜜璃、伊黑小芭內",
+    "characters": ["竈門炭治郎","富岡義勇","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "立牌",
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 5500,
-    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20358.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20359.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20360.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20361.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20362.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20363.webp?1772602637000",
-    "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20364.webp?1772602637000"
-  ]
+    "images": [
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20358.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20361.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20359.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20360.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20362.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20363.webp?1772602637000",
+      "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20364.webp?1772602637000"
+    ]
   },
   {
     "id": 10,
-    "name": "干支2026午年風格流蘇",
+    "name": "干支2026馬年風格流蘇",
     "series": "2026干支午年",
-    "character": "竈門炭治郎、竈門禰豆子、我妻善逸、嘴平伊之助、栗花落香奈乎、不死川玄彌、富岡義勇、胡蝶忍、煉獄杏壽郎、宇髓天元、甘露寺蜜璃、時透無一郎、不死川實彌、伊黑小芭內、悲鳴嶼行冥",
+    "characters": ["竈門炭治郎","竈門禰豆子","富岡義勇","我妻善逸","嘴平伊之助","栗花落香奈乎","不死川玄彌","胡蝶忍","煉獄杏壽郎","宇髓天元","時透無一郎","甘露寺蜜璃","不死川實彌","伊黑小芭內","悲鳴嶼行冥"],
     "type": "吊飾",
     "manufacturer": "Ufotable",
     "releaseDate": "2026-01-01",
     "price": 1800,
-    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20372.webp?1772602637000"
-  ]
-  },
-  {
-    "id": 11,
-    "name": "干支2026午年特典餐墊（隨機）",
-    "series": "2026干支午年",
-    "character": "竈門炭治郎、我妻善逸、栗花落香奈乎、富岡義勇、胡蝶忍、甘露寺蜜璃、伊黑小芭內",
-    "type": "餐墊",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-01-01",
-    "price": 1000,
-    "remark":"午年雜煮附贈",
-    "images": [ "images/HORSELUN.png"]
-  },
-  {
-    "id": 12,
-    "name": "干支2026午年特典杯墊（隨機）",
-    "series": "2026干支午年",
-    "character": "竈門炭治郎、我妻善逸、栗花落香奈乎、富岡義勇、胡蝶忍、甘露寺蜜璃、伊黑小芭內",
-    "type": "杯墊",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-01-01",
-    "price": 650,
-    "remark":"午年飲品附贈",
-    "images": [ "images/HORSECUP.png"]
-  },
-  {
-    "id": 13,
-    "name": "情人節2026TOYOU立牌（隨機）",
-    "series": "2026情人節TOYOU",
-    "character": "竈門炭治郎、嘴平伊之助、富岡義勇、胡蝶忍、宇髓天元、甘露寺蜜璃、悲鳴嶼行冥、神崎葵、竈門禰豆子、我妻善逸、栗花落香奈乎、不死川玄彌、煉獄杏壽郎、時透無一郎、伊黑小芭內、不死川實彌",
-    "type": "立牌",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-04",
-    "price": 1100,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945581.webp?1772633011000",
-  "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945598.webp?1772633011000"
-  ]
-  },
-  {
-    "id": 14,
-    "name": "情人節2026TOYOU方徽（隨機）",
-    "series": "2026情人節TOYOU",
-    "character": "竈門炭治郎、嘴平伊之助、富岡義勇、胡蝶忍、宇髓天元、甘露寺蜜璃、悲鳴嶼行冥、神崎葵、竈門禰豆子、我妻善逸、栗花落香奈乎、不死川玄彌、煉獄杏壽郎、時透無一郎、伊黑小芭內、不死川實彌",
-    "type": "徽章",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-04",
-    "price": 550,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945567.webp?1772633011000",
-  "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945574.webp?1772633011000"
-  ]
-  },
-  {
-    "id": 15,
-    "name": "情人節2026TOYOU動物餅乾別針（隨機）",
-    "series": "2026情人節TOYOU",
-    "character": "竈門炭治郎、嘴平伊之助、富岡義勇、胡蝶忍、宇髓天元、甘露寺蜜璃、悲鳴嶼行冥、神崎葵、竈門禰豆子、我妻善逸、栗花落香奈乎、不死川玄彌、煉獄杏壽郎、時透無一郎、伊黑小芭內、不死川實彌",
-    "type": "徽章",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-04",
-    "price": 800,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945604.webp?1772633011000",
-  "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945611.webp?1772633011000"
-  ]
-  },
-  {
-    "id": 16,
-    "name": "情人節2026TOYOU感謝訊息貼紙組",
-    "series": "2026情人節TOYOU",
-    "character": "竈門炭治郎、嘴平伊之助、富岡義勇、胡蝶忍、宇髓天元、甘露寺蜜璃、悲鳴嶼行冥、神崎葵、竈門禰豆子、我妻善逸、栗花落香奈乎、不死川玄彌、煉獄杏壽郎、時透無一郎、伊黑小芭內、不死川實彌",
-    "type": "貼紙",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-04",
-    "price": 1200,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946106.webp?1772633011000",
-  "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946113.webp?1772633011000"
-  ]
-  },
-  {
-    "id": 17,
-    "name": "情人節2026TOYOU禮物盒風迷你收納夾",
-    "series": "2026情人節TOYOU",
-    "character": "竈門炭治郎、嘴平伊之助、富岡義勇、胡蝶忍、宇髓天元、甘露寺蜜璃、悲鳴嶼行冥、神崎葵、竈門禰豆子、我妻善逸、栗花落香奈乎、不死川玄彌、煉獄杏壽郎、時透無一郎、伊黑小芭內、不死川實彌",
-    "type": "收納夾",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-04",
-    "price": 700,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945949.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945970.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946014.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946021.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946045.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946052.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946090.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946007.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945956.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945963.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945987.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945994.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946038.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946069.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946083.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946076.webp?1772633011000"
-  ]
-  },
-  {
-    "id": 18,
-    "name": "情人節2026TOYOU壓線縫托特包",
-    "series": "2026情人節TOYOU",
-    "character": "竈門炭治郎、嘴平伊之助、富岡義勇、胡蝶忍、宇髓天元、甘露寺蜜璃、悲鳴嶼行冥、神崎葵、竈門禰豆子、我妻善逸、栗花落香奈乎、不死川玄彌、煉獄杏壽郎、時透無一郎、伊黑小芭內、不死川實彌",
-    "type": "包、袋",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-04",
-    "price": 3850,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945123.webp?1772633011000",
-  "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711945130.webp?1772633011000"
-  ]
-  },
-  {
-    "id": 19,
-    "name": "情人節2026TOYOU棒棒糖壓克力棒",
-    "series": "2026情人節TOYOU",
-    "character": "竈門炭治郎、竈門禰豆子、我妻善逸、嘴平伊之助、栗花落香奈乎、不死川玄彌、神崎葵、富岡義勇、胡蝶忍、煉獄杏壽郎、宇髓天元、甘露寺蜜璃、時透無一郎、不死川實彌、伊黑小芭內、悲鳴嶼行冥",
-    "type": "其他",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-04",
-    "price": 1600,
-    "images": [ "https://client-api.modd.com/assets/UFWE/ed5fda7c-a073-4f7b-87a2-5c854a9ec42b.jpeg",
-  "https://client-api.modd.com/assets/UFWE/cc48cccf-dded-42ea-a6ad-bf8254bf18a6.jpeg",
-  "https://client-api.modd.com/assets/UFWE/ee517ce4-2eb0-43c2-983f-c9d5c991fe80.jpeg",
-  "https://client-api.modd.com/assets/UFWE/a6591083-b7f3-463f-84a1-af8a385d51c6.jpeg",
-  "https://client-api.modd.com/assets/UFWE/d9929b33-2728-471e-966b-4557f6bd4342.jpeg",
-  "https://client-api.modd.com/assets/UFWE/de7695c4-8e0e-4d1a-bbd8-870b21b308a6.jpeg",
-  "https://client-api.modd.com/assets/UFWE/b38c8530-334f-486a-aab5-29f4d0738eb2.jpeg",
-  "https://client-api.modd.com/assets/UFWE/eeff8c68-1e6b-4bda-a249-cfd15df4f602.jpeg",
-  "https://client-api.modd.com/assets/UFWE/0eb3aa85-2410-48f0-b5a5-2fc117604b34.jpeg",
-  "https://client-api.modd.com/assets/UFWE/50f87e82-29a4-4cb9-889c-df878443fa36.jpeg",
-  "https://client-api.modd.com/assets/UFWE/59a66c88-cad8-48bb-82c5-3bb69a9a174c.jpeg",
-  "https://client-api.modd.com/assets/UFWE/0bb064f7-46e4-4b60-81b6-b85b911f17bf.jpeg",
-  "https://client-api.modd.com/assets/UFWE/12301f4c-e24e-46fe-9c6e-669d70876700.jpeg",
-  "https://client-api.modd.com/assets/UFWE/68ae7c1d-601c-483b-a44e-2d9826cf47f9.jpeg",
-  "https://client-api.modd.com/assets/UFWE/a791e33e-2926-48a4-a160-c7ed27a486ec.jpeg",
-  "https://client-api.modd.com/assets/UFWE/4164cf20-98cf-42b1-a0f1-e165ec0b2851.jpeg"
-  ]
-  },
-  {
-    "id": 20,
-    "name": "情人節2026WITHME組合壓克力吊飾（隨機）",
-    "series": "2026情人節WITHME",
-    "character": "竈門炭治郎、嘴平伊之助、富岡義勇、胡蝶忍、宇髓天元、甘露寺蜜璃、悲鳴嶼行冥、神崎葵、竈門禰豆子、我妻善逸、栗花落香奈乎、不死川玄彌、煉獄杏壽郎、時透無一郎、伊黑小芭內、不死川實彌",
-    "type": "吊飾",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-03-04",
-    "price": 850,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946175.webp?1772633011000",
-  "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946182.webp?1772633011000"
-  ]
-  },
-  {
-    "id": 21,
-    "name": "情人節2026WITHME巧克力風小卡（隨機）",
-    "series": "2026情人節WITHME",
-    "character": "竈門炭治郎、富岡義勇、胡蝶忍、嘴平伊之助、宇髓天元、甘露寺蜜璃、悲鳴嶼行冥、神崎葵、竈門禰豆子、我妻善逸、栗花落香奈乎、不死川玄彌、煉獄杏壽郎、時透無一郎、伊黑小芭內、不死川實彌",
-    "type": "卡片",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-03-04",
-    "price": 440,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946199.webp?1772633011000",
-  "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946205.webp?1772633011000"
-  ]
-  },
-  {
-    "id": 22,
-    "name": "情人節2026WITHME點心風壓克力收納盒",
-    "series": "2026情人節WITHME",
-    "character": "竈門炭治郎、嘴平伊之助、富岡義勇、胡蝶忍、宇髓天元、甘露寺蜜璃、悲鳴嶼行冥、神崎葵、竈門禰豆子、我妻善逸、栗花落香奈乎、不死川玄彌、煉獄杏壽郎、時透無一郎、伊黑小芭內、不死川實彌",
-    "type": "其他",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-03-04",
-    "price": 3500,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946212.webp?1772633011000"]
-  },
-  {
-    "id": 23,
-    "name": "情人節2026WITHME餐墊收納夾",
-    "series": "2026情人節WITHME",
-    "character": "竈門炭治郎、嘴平伊之助、富岡義勇、胡蝶忍、宇髓天元、甘露寺蜜璃、悲鳴嶼行冥、神崎葵、竈門禰豆子、我妻善逸、栗花落香奈乎、不死川玄彌、煉獄杏壽郎、時透無一郎、伊黑小芭內、不死川實彌",
-    "type": "收納夾",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-03-04",
-    "price": 800,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946540.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946557.webp?1772633011000"]
-  },
-  {
-    "id": 24,
-    "name": "情人節2026WITHME遮棚風掛毯",
-    "series": "2026情人節WITHME",
-    "character": "竈門炭治郎、竈門禰豆子、我妻善逸、嘴平伊之助、栗花落香奈乎、不死川玄彌、神崎葵、富岡義勇、胡蝶忍、煉獄杏壽郎、宇髓天元、甘露寺蜜璃、時透無一郎、不死川實彌、伊黑小芭內、悲鳴嶼行冥",
-    "type": "掛軸",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-03-04",
-    "price": 3000,
-    "images": [ "https://client-api.modd.com/assets/UFWE/b4c3bda8-9dcc-4940-ba31-234a89efc142.webp",
-    "https://client-api.modd.com/assets/UFWE/63cfdff6-9a64-494b-8bec-1405c163b07f.webp",
-    "https://client-api.modd.com/assets/UFWE/bce557b9-9261-4cfd-9fdc-1abe4ceafc2a.webp",
-    "https://client-api.modd.com/assets/UFWE/b8491fbe-3651-4ba0-8b1c-996d9979829e.webp",
-    "https://client-api.modd.com/assets/UFWE/b87b1e79-0e84-4440-a0bc-a8eb8dca5f54.webp",
-    "https://client-api.modd.com/assets/UFWE/ee458cc5-fb5a-4ea7-a9bf-4d4ed466068e.webp",
-    "https://client-api.modd.com/assets/UFWE/75eca4e7-0c69-4e98-81a7-6277500d2647.webp",
-    "https://client-api.modd.com/assets/UFWE/f11020f9-9e97-45d1-98e3-25f2e8bed813.webp",
-    "https://client-api.modd.com/assets/UFWE/b6a45ff8-3c80-4dcb-84dc-82dda698aa23.webp",
-    "https://client-api.modd.com/assets/UFWE/9e962ce9-0a3c-4bb7-b376-b7cc8286ad62.webp",
-    "https://client-api.modd.com/assets/UFWE/fa3dd87d-571c-4308-984b-cc318477cb97.webp",
-    "https://client-api.modd.com/assets/UFWE/2174b7b7-676f-4330-bb7e-d136e23c05b5.webp",
-    "https://client-api.modd.com/assets/UFWE/f74950fe-ed05-4c98-be18-512e52a95bc3.webp",
-    "https://client-api.modd.com/assets/UFWE/4caf73d5-17e3-47d5-8879-58c428b39795.webp",
-    "https://client-api.modd.com/assets/UFWE/4a30c8c2-2216-40b3-81c4-6cdc8e51a284.webp",
-    "https://client-api.modd.com/assets/UFWE/e63f5583-9e41-444f-bf10-be32736c2bf2.webp"
-    ]
-  },
-  {
-    "id": 25,
-    "name": "情人節2026WITHME餅乾風軟木杯墊組",
-    "series": "2026情人節WITHME",
-    "character": "竈門炭治郎、竈門禰豆子、不死川玄彌、悲鳴嶼行冥",
-    "type": "杯墊",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-03-04",
-    "price": 1500,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946229.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946236.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946243.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946250.webp?1772633011000"
-  ]
-  },
-  {
-    "id": 26,
-    "name": "情人節2026WITHME布餐墊",
-    "series": "2026情人節WITHME",
-    "character": "胡蝶忍、甘露寺蜜璃、時透無一郎、伊黑小芭內、我妻善逸、宇髓天元、嘴平伊之助、煉獄杏壽郎",
-    "type": "餐墊",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-03-04",
-    "price": 1500,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946267.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946274.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946281.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946298.webp?1772633011000"
-  ]
-  },
-  {
-    "id": 27,
-    "name": "情人節2026WITHME點心束口袋",
-    "series": "2026情人節WITHME",
-    "character": "富岡義勇、栗花落香奈乎、神崎葵、不死川實彌",
-    "type": "包、袋",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-03-04",
-    "price": 2500,
-    "images": [ "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946328.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946304.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946311.webp?1772633011000",
-    "https://www.ufotable.co.jp/kimetsu/event/valentine_whiteday2026/_assets/images/items/goods/thumbnails/4582711946335.webp?1772633011000"
-  ]
-  },
-  {
-    "id": 28,
-    "name": "富岡義勇誕生祭2026立牌",
-    "series": "2026誕生祭",
-    "character": "富岡義勇",
-    "type": "立牌",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-08",
-    "price": 1950,
-    "images": ["images/2026GYBD-1.png"]
-  },
-  {
-    "id": 29,
-    "name": "富岡義勇誕生祭2026玫瑰型絲帶徽章",
-    "series": "2026誕生祭",
-    "character": "富岡義勇",
-    "type": "徽章",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-08",
-    "price": 1300,
-    "images": ["https://client-api.modd.com/assets/UFWE/5790c9b9-4ab1-4717-87dd-5320d1b1177c.webp"]
-  },
-  {
-    "id": 30,
-    "name": "富岡義勇誕生祭2026拍立得風小卡&卡套吊飾",
-    "series": "2026誕生祭",
-    "character": "富岡義勇",
-    "type": "吊飾",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-08",
-    "price": 1700,
-    "images": ["images/2026GYBD-3.png"]
-  },
-  {
-    "id": 31,
-    "name": "富岡義勇誕生祭2026托特包",
-    "series": "2026誕生祭",
-    "character": "富岡義勇",
-    "type": "包、袋",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-08",
-    "price": 2300,
-    "images": ["images/2026GYBD-4.png"]
-  },
-  {
-    "id": 32,
-    "name": "富岡義勇誕生祭2026誕生日BOX",
-    "series": "2026誕生祭",
-    "character": "富岡義勇",
-    "type": "誕生日BOX",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-08",
-    "price": 10000,
-    "images": ["images/2026GYBD-5.png"]
-  },
-  {
-    "id": 33,
-    "name": "富岡義勇誕生祭2026特典餐墊",
-    "series": "2026誕生祭",
-    "character": "富岡義勇",
-    "type": "餐墊",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-08",
-    "price": 1200,
-    "remark":"生日點餐附贈",
-    "images": ["images/GYBDLUN.png"]
-  },
-  {
-    "id": 34,
-    "name": "富岡義勇誕生祭2026特典明信片",
-    "series": "2026誕生祭",
-    "character": "富岡義勇",
-    "type": "卡片",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-08",
-    "price": 650,
-    "remark":"生日飲品附贈",
-    "images": ["images/GYBDPC.png"]
-  },
-  {
-    "id": 35,
-    "name": "富岡義勇誕生祭2026飲料提袋",
-    "series": "2026誕生祭",
-    "character": "富岡義勇",
-    "type": "其他",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-08",
-    "price": 1850,
-    "images": ["images/GYBDDR.png"]
-  },
-  {
-    "id": 36,
-    "name": "情人節繪2024動物玩偶",
-    "series": "角色動物玩偶",
-    "character": "竈門炭治郎、竈門禰豆子、我妻善逸、嘴平伊之助、栗花落香奈乎、不死川玄彌、神崎葵、富岡義勇、胡蝶忍、煉獄杏壽郎、宇髓天元、時透無一郎、甘露寺蜜璃、伊黑小芭內、不死川實彌、悲鳴嶼行冥",
-    "type": "玩偶",
-    "manufacturer": "Ufotable",
-    "releaseDate": "",
-    "price": 11100,
-    "images": ["images/DOGDOLL-1.png",
-  "images/DOGDOLL-2.png"]
-  },
-  {
-    "id": 37,
-    "name": "節分2026立牌",
-    "series": "2026節分",
-    "character": "竈門炭治郎、胡蝶忍、我妻善逸、富岡義勇",
-    "type": "立牌",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-03",
-    "price": 1200,
-    "images": ["images/JFLP.png"]
-  },
-  {
-    "id": 38,
-    "name": "節分2026A4收納夾",
-    "series": "2026節分",
-    "character": "竈門炭治郎、胡蝶忍、我妻善逸、富岡義勇",
-    "type": "收納夾",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-03",
-    "price": 440,
-    "images": ["images/JFLJ.png"]
-  },
-  {
-    "id": 39,
-    "name": "節分2026特典明信片",
-    "series": "2026節分",
-    "character": "竈門炭治郎、胡蝶忍、我妻善逸、富岡義勇",
-    "type": "卡片",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2026-02-03",
-    "price": 650,
-    "images": ["images/JFPC.png"]
-  },
-  {
-    "id": 40,
-    "name": "干支2025巳年立牌（隨機）",
-    "series": "2025干支巳年",
-    "character": "竈門炭治郎、竈門禰豆子、富岡義勇、胡蝶忍、伊黑小芭內、不死川實彌、悲鳴嶼行冥",
-    "type": "立牌",
-    "manufacturer": "Ufotable",
-    "releaseDate": "2025-01-01",
-    "price": 900,
-    "images": ["images/SNAKELP.png"]
-  },
-  {
-    "id": 41,
-    "name": "無限城第一章第一期徽章（隨機）",
-    "series": "無限城第一章合作咖啡",
-    "character": "竈門炭治郎、竈門禰豆子、嘴平伊之助、富岡義勇、煉獄杏壽郎、宇髓天元、鱗瀧左近次、產屋敷耀哉、煉獄槙壽郎、產屋敷輝利哉、竈門炭十郎、猗窩座",
-    "type": "徽章",
-    "manufacturer": "Ufotable",
-    "releaseDate": "",
-    "price": 550,
-    "remark":"直徑57毫米",
-    "images": ["images/WCC1.png"]
-  },
-  {
-    "id": 42,
-    "name": "無限城第一章第一期餐墊收納夾",
-    "series": "無限城第一章合作咖啡",
-    "character": "竈門炭治郎、富岡義勇、猗窩座",
-    "type": "收納夾",
-    "manufacturer": "Ufotable",
-    "releaseDate": "",
-    "price": 600,
-    "images": ["images/GYTN.png","images/AKAA.png"]
+    "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20372.webp?1772602637000"]
   }
-  ]
+]
