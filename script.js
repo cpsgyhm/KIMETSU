@@ -101,10 +101,11 @@ function displayProducts(items, totalCount) {
             ${isFavorite(item.id)?'❤️':'🤍'}
           </button>
           <button class="owned-btn ${owned.includes(item.id) ? 'owned' : ''}" 
-            onclick="toggleOwned(${item.id})">
-            ✔
-          </button>
+        onclick="toggleOwned(${item.id})">
+  ${owned.includes(item.id) ? '🌟' : '⭐️'}
+</button>
         </div>
+
 
         <h3>${item.name}</h3>
         <p>價格：${item.price.toLocaleString("ja-JP",{style:"currency",currency:"JPY"})}</p>
@@ -197,4 +198,5 @@ document.getElementById("show-owned-btn").addEventListener("click",()=>{
 ["search-input","series-filter","type-filter","character1-filter","character2-filter"].forEach(id=>{
   document.getElementById(id).addEventListener("input",()=>{currentPage=1;filterProducts();});
   document.getElementById(id).addEventListener("change",()=>{currentPage=1;filterProducts();});
+
 });
