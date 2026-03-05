@@ -40,7 +40,11 @@ filtered.forEach(item=>{
 const images=item.images||[];
 let imgIndex=0;
 
-const charactersHTML=(item.characters||[]).map(char=>`
+const charList = typeof item.characters === "string"
+ ? item.characters.split("、")
+ : (item.characters || []);
+
+const charactersHTML = charList.map(char=>`
 
 <label class="char-btn">
 <input type="checkbox" class="owned-character" data-id="${item.id}" value="${char}"
@@ -188,3 +192,4 @@ backBtn.style.display="none";
 backBtn.onclick=function(){
 window.scrollTo({top:0,behavior:"smooth"});
 };
+
