@@ -147,23 +147,42 @@ h1 {
 .favorite-btn.favorited { color:#e74c3c; }
 .favorite-btn:hover { transform:scale(1.25); }
 
+/* ===== 擁有星星按鈕 ===== */
 .owned-btn {
-    background:none;
-    border:none;
-    font-size:20px;
-    cursor:pointer;
-    transition:transform 0.2s ease, filter 0.2s ease;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease, filter 0.2s ease;
+    position: relative;  /* 必須有定位，才能顯示陰影 */
+    z-index: 10;         /* 提升到卡片上方，避免被遮住 */
 }
-.owned-btn:hover { transform:scale(1.25); }
+
+/* 滑鼠移上去放大 */
+.owned-btn:hover {
+    transform: scale(1.25);
+}
+
+/* 已擁有狀態（星星發光） */
 .owned-btn.owned {
-    animation:sparkle 0.35s ease;
-    transform:scale(1.3);
-    filter:drop-shadow(0 0 6px gold);
+    transform: scale(1.3);
+    animation: sparkle 0.35s ease;
 }
+
+/* 星星彈跳 + 發光動畫 */
 @keyframes sparkle {
-    0% { transform:scale(1); }
-    50% { transform:scale(1.6); }
-    100% { transform:scale(1.3); }
+    0% {
+        transform: scale(1);
+        filter: drop-shadow(0 0 4px gold);
+    }
+    50% {
+        transform: scale(1.6);
+        filter: drop-shadow(0 0 12px gold);
+    }
+    100% {
+        transform: scale(1.3);
+        filter: drop-shadow(0 0 8px gold);
+    }
 }
 
 /* ====== 商品資訊 ====== */
@@ -254,3 +273,4 @@ h1 {
     font-weight:bold;
     text-shadow:0 0 8px rgba(0,0,50,0.5);
 }
+
