@@ -6,7 +6,7 @@
     "characters": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "立牌",
     "manufacturer": "Ufotable",
-    "releaseDate": "2026-01-01",
+    "size":"12cm",
     "price": 900,
     "checkboxOptions": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20339.webp?1772602637000"]
@@ -18,7 +18,7 @@
     "characters": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "徽章",
     "manufacturer": "Ufotable",
-    "releaseDate": "2026-01-01",
+    "size":"57mm",
     "price": 550,
     "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20340.webp?1772602637000"],
     "checkboxOptions": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"]
@@ -30,10 +30,10 @@
     "characters": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "收納夾",
     "manufacturer": "Ufotable",
-    "releaseDate": "2026-01-01",
+    "size":"－",
     "price": 900,
     "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20342.webp?1772602637000"],
-    "checkboxOptions": ["全員"]
+    "checkboxOptions": ["富岡義勇、竈門炭治郎、我妻善逸","栗花落香奈乎、胡蝶忍、甘露寺蜜璃、伊黑小芭內"]
   },
   {
     "id": 4,
@@ -42,10 +42,10 @@
     "characters": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "其他",
     "manufacturer": "Ufotable",
-    "releaseDate": "2026-01-01",
+    "size":"－",
     "price": 1300,
     "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20343.webp?1772602637000"],
-    "checkboxOptions": ["全員"]
+    "checkboxOptions": ["富岡義勇、竈門炭治郎、我妻善逸、栗花落香奈乎、胡蝶忍、甘露寺蜜璃、伊黑小芭內"]
   },
   {
     "id": 5,
@@ -54,7 +54,7 @@
     "characters": ["富岡義勇","竈門炭治郎","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "其他",
     "manufacturer": "Ufotable",
-    "releaseDate": "2026-01-01",
+    "size":"－",
     "price": 2400,
     "images": [
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20347.webp?1772602637000",
@@ -73,7 +73,7 @@
     "characters": ["竈門炭治郎","富岡義勇","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "掛軸",
     "manufacturer": "Ufotable",
-    "releaseDate": "2026-01-01",
+    "size":"－",
     "price": 8000,
     "images": [
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20365.webp?1772602637000",
@@ -93,10 +93,10 @@
     "characters": ["竈門炭治郎","富岡義勇","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "卡片",
     "manufacturer": "Ufotable",
-    "releaseDate": "2026-01-01",
+    "size":"－",
     "price": 440,
     "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20341.webp?1772602637000"],
-    "checkboxOptions": ["富岡義勇A","竈門炭治郎A","我妻善逸A","栗花落香奈乎A","胡蝶忍A","甘露寺蜜璃A","伊黑小芭內A","富岡義B勇","竈門炭治郎B","我妻善逸B","栗花落香奈乎B","胡蝶忍B","甘露寺蜜璃B","伊黑小芭內B"]
+    "checkboxOptions": ["富岡義勇A","竈門炭治郎A","我妻善逸A","栗花落香奈乎A","胡蝶忍A","甘露寺蜜璃A","伊黑小芭內A","富岡義勇B","竈門炭治郎B","我妻善逸B","栗花落香奈乎B","胡蝶忍B","甘露寺蜜璃B","伊黑小芭內B"]
   },
   {
     "id": 8,
@@ -105,7 +105,7 @@
     "characters": ["竈門炭治郎","富岡義勇","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "吊飾",
     "manufacturer": "Ufotable",
-    "releaseDate": "2026-01-01",
+    "size":"－",
     "price": 1300,
     "images": [
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20351.webp?1772602637000",
@@ -125,7 +125,7 @@
     "characters": ["竈門炭治郎","富岡義勇","我妻善逸","栗花落香奈乎","胡蝶忍","甘露寺蜜璃","伊黑小芭內"],
     "type": "立牌",
     "manufacturer": "Ufotable",
-    "releaseDate": "2026-01-01",
+    "size":"－",
     "price": 5500,
     "images": [
       "https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20358.webp?1772602637000",
@@ -145,11 +145,10 @@
     "characters": ["竈門炭治郎","竈門禰豆子","富岡義勇","我妻善逸","嘴平伊之助","栗花落香奈乎","不死川玄彌","胡蝶忍","煉獄杏壽郎","宇髓天元","時透無一郎","甘露寺蜜璃","不死川實彌","伊黑小芭內","悲鳴嶼行冥"],
     "type": "吊飾",
     "manufacturer": "Ufotable",
-    "releaseDate": "2026-01-01",
+    "size":"－",
     "price": 1800,
     "images": ["https://www.ufotable.co.jp/kimetsu/event/shogatsu2026/_assets/images/items/thumbnails/21-20372.webp?1772602637000"],
     "checkboxOptions": ["竈門炭治郎","竈門禰豆子","我妻善逸","嘴平伊之助","栗花落香奈乎","不死川玄彌","富岡義勇","胡蝶忍","煉獄杏壽郎","宇髓天元","時透無一郎","甘露寺蜜璃","不死川實彌","伊黑小芭內","悲鳴嶼行冥"]
   }
 ]
-
 
