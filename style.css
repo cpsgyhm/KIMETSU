@@ -34,6 +34,9 @@ h1 { text-align:center; color:#222; margin-bottom:20px; }
 /* 已擁有角色 checkbox */
 .owned-roles label { margin-right:6px; font-size:13px; }
 
+/* 備註 */
+.remark { font-size:13px;color:#999;margin-top:4px;line-height:1.4; }
+
 /* 顯示模式按鈕 */
 #show-all-btn,#show-fav-btn,#show-owned-btn { padding:8px 18px; margin:5px; border-radius:20px; border:1px solid #d0d4ff; background-color:#fff; cursor:pointer; transition:0.2s; }
 #show-all-btn.active,#show-fav-btn.active,#show-owned-btn.active { background-color:#6c63ff;color:#fff;border-color:#6c63ff; }
