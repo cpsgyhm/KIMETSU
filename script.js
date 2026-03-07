@@ -12,18 +12,32 @@ let viewMode = "all";
 
 // ====== 自訂排序 ======
 const customSeriesOrder = [
-  "2026干支午年",
-  "2026情人節",
-  "2026誕生祭",
-  "2025聖誕節",
-  "2025干支巳年",
-  "2024干支辰年"
+  
+  "2026 情人節バレンタイン＆ホワイトデー",
+  "2026 節分",
+  "2026 干支午年",
+  "2026 JUMPFES",
+  "2025-2026 誕生祭",
+  "2025 聖誕節",
+  "2025 AGF·EARLYWINTER",
+  "2025 鬼滅百景·柱百景＆隊士百景",
+  "2025 京まふ",
+  "2025 築地銀だこ章魚燒",
+  "2025 干支巳年",
+  "2024 AGF·純喫茶",
+  "2024 柱展",
+  "2024 京まふ",
+  "2024 動畫伍周年記念祭＆後夜祭",
+  "2024 干支辰年",
+  "2023 AGF·干支卯年",
+  "2023 京まふ",
+  "2021 京まふ",
 ];
 
 const customTypeOrder = [
   "立牌","徽章","卡片","色紙","杯墊","餐墊","吊飾",
   "收納夾","貼紙","玩偶","模型","海報",
-  "掛軸","居家用品","首飾","包、袋","推活小物","其他"
+  "壁掛","居家用品","首飾","包、袋","衣物","推活小物","其他"
 ];
 
 const customCharacterOrder = [
@@ -31,11 +45,26 @@ const customCharacterOrder = [
   "嘴平伊之助","不死川玄彌","栗花落香奈乎","胡蝶忍",
   "煉獄杏壽郎","宇髓天元","時透無一郎","甘露寺蜜璃",
   "不死川實彌","伊黑小芭內","悲鳴嶼行冥","產屋敷耀哉",
-  "鬼無辻無慘","黑死牟","童磨","猗窩座","半天狗","憎珀天","玉壺","妓夫太郎","墮姬","獪岳","鳴女",
-  "錆兔","真菰","鱗瀧左近次","珠世","愈史郎","狛治","戀雪","慶藏","胡蝶香奈惠",
-  "神崎葵","雛鶴","牧緒","須磨","桑島慈悟郎","產屋敷輝利哉",
+  "鬼無辻無慘","黑死牟","童磨","猗窩座","半天狗","積怒","可樂","空喜","哀絕","憎珀天","玉壺","妓夫太郎","墮姬","獪岳","鳴女",
+  "錆兔","真菰","鱗瀧左近次","珠世","愈史郎","村田","狛治","戀雪","慶藏","胡蝶香奈惠","鋼鐵塚","小鐵",
+  "神崎葵","雛鶴","牧緒","須磨","桑島慈悟郎","產屋敷輝利哉","肌肉鼠",
   "魘夢","累","竈門炭十郎"
 ];
+
+// ====== 角色群組 ======
+const characterGroups = {
+  "九柱": [
+    "伊黑小芭內",
+    "甘露寺蜜璃",
+    "富岡義勇",
+    "煉獄杏壽郎",
+    "宇髓天元",
+    "時透無一郎",
+    "胡蝶忍",
+    "悲鳴嶼行冥",
+    "不死川實彌"
+  ]
+};
 
 // ====== 修復舊資料 ======
 function normalizeOwned(){
@@ -145,6 +174,23 @@ function getBaseCharacter(name){
   return name;
 }
 
+function expandCharacter(name){
+
+  const base = getBaseCharacter(name);
+
+  // ===== 先判斷角色群組 =====
+  for(const group in characterGroups){
+
+    if(name.includes(group)){
+      return characterGroups[group];
+    }
+
+  }
+
+  // ===== 一般角色 =====
+  return [base];
+
+}
 
 // ====== 搜尋 + 篩選 ======
 function filterProducts() {
@@ -191,8 +237,8 @@ if (viewMode === "owned") {
   const ownedOptions = owned[item.id] || [];
   if (!Array.isArray(ownedOptions) || ownedOptions.length === 0) return false;
   const ownedBases = ownedOptions
-    .flatMap(c => String(c).split("、"))
-    .map(getBaseCharacter);
+    .flatMap(c => String(c).split(/[、＆&]/))
+    .flatMap(expandCharacter);
   if (selectedCharacter1) {
     matchCharacter1 = ownedBases.includes(selectedCharacter1);
   }
@@ -201,8 +247,8 @@ if (viewMode === "owned") {
   }
 } else {
   const chars = (item.characters || [])
-    .flatMap(c => String(c).split("、"))
-    .map(getBaseCharacter);
+    .flatMap(c => String(c).split(/[、＆&]/))
+    .flatMap(expandCharacter);
   if (selectedCharacter1) {matchCharacter1 = chars.includes(selectedCharacter1);}
   if (selectedCharacter2) {matchCharacter2 = chars.includes(selectedCharacter2);}
 }
@@ -377,17 +423,13 @@ function toggleOwnedOption(id, option, isChecked) {
   } else {
 
     owned[id] = owned[id].filter(c => c !== option);
-
     if (owned[id].length === 0) {
       delete owned[id];
     }
 
   }
 
-  localStorage.setItem(
-    "owned",
-    JSON.stringify(owned)
-  );
+  localStorage.setItem("owned", JSON.stringify(owned));
 
   filterProducts();
 
@@ -473,4 +515,4 @@ window.addEventListener("scroll",()=>{
 
 backBtn.onclick=()=>{
   window.scrollTo({top:0,behavior:"smooth"});
-}; 
+};  
