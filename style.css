@@ -44,8 +44,8 @@ h1 { text-align:center; color:#222; margin-bottom:20px; }
 
 /* 顯示模式按鈕 */
 #show-all-btn,#show-fav-btn,#show-owned-btn { padding:8px 18px; margin:5px; border-radius:20px; border:1px solid #d0d4ff; background-color:#fff; cursor:pointer; transition:0.2s; }
-#show-all-btn.active,#show-fav-btn.active,#show-owned-btn.active { background-color:#35309a;color:#fff;border-color:#6c63ff; }
-#show-all-btn:hover,#show-fav-btn:hover,#show-owned-btn:hover { background-color:#35309a;color:#fff; }
+#show-all-btn.active,#show-fav-btn.active,#show-owned-btn.active { background-color:#130c9d;color:#fff;border-color:#6c63ff; }
+#show-all-btn:hover,#show-fav-btn:hover,#show-owned-btn:hover { background-color:#130c9d;color:#fff; }
 
 /* 手機自適應 */
 @media(max-width:768px){ 
