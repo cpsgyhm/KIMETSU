@@ -8681,7 +8681,7 @@
 },{
   "id": 778,
   "name": "柱合會議蝶屋敷主視覺隨機立牌",
-  "series": "版權繪",
+  "series": "柱合會議蝶屋敷主視覺",
   "characters": ["煉獄杏壽郎","宇髓天元","時透無一郎","甘露寺蜜璃","富岡義勇","胡蝶忍","悲鳴嶼行冥","不死川實彌","伊黑小芭內"],
   "type": "立牌",
   "manufacturer": "UFOTABLE",
@@ -8693,7 +8693,7 @@
 },{
   "id": 779,
   "name": "柱合會議蝶屋敷主視覺圓徽章組",
-  "series": "版權繪",
+  "series": "柱合會議蝶屋敷主視覺",
   "characters": ["煉獄杏壽郎","宇髓天元","時透無一郎","甘露寺蜜璃","富岡義勇","胡蝶忍","悲鳴嶼行冥","不死川實彌","伊黑小芭內"],
   "type": "徽章",
   "manufacturer": "UFOTABLE",
@@ -10747,6 +10747,248 @@
   "price": 3500,
   "checkboxOptions": ["我妻善逸＆獪岳"],
   "images": ["https://online.aniplex.co.jp/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw46628edb/items/title-K/kimetsu/GDS/md/18-mugenkv/vol5/600_ab.jpg"]
+},{
+  "id": 866,
+  "name": "築地銀章魚燒聯名2025立牌吊飾組",
+  "series": "2025 築地銀章魚燒聯名",
+  "characters": ["富岡義勇","竈門炭治郎","我妻善逸","嘴平伊之助","不死川玄彌","栗花落香奈乎","胡蝶忍","悲鳴嶼行冥"],
+  "type": "立牌",
+  "manufacturer": "－",
+  "size": "－",
+  "price": 2530,
+  "checkboxOptions": ["富岡義勇","竈門炭治郎","我妻善逸","嘴平伊之助","不死川玄彌","栗花落香奈乎","胡蝶忍","悲鳴嶼行冥"],
+  "images": ["https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/53giyu_acryl_stand_key/53-3_giyu_acryl_stand_key_acryl_stand_set_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/3tanjiro_acryl_stand_key/3-3_tanjiro_acryl_stand_key_acryl_stand_set_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/13zenitsu_acryl_stand_key/13-13_zenitsu_acryl_stand_key_acryl_stand_set_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/23inosuke_acryl_stand_key/23-3_inosuke_acryl_stand_key_acryl_stand_set_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/43genya_acryl_stand_key/43-3_genya_acryl_stand_key_acryl_stand_set_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/33kanao_acryl_stand_key/33-3_kanao_acryl_stand_key_acryl_stand_set_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/63shinobu_acryl_stand_key/63-3_shinobu_acryl_stand_key_acryl_stand_set_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/73gyomei_acryl_stand_key/73-3_gyomei_acryl_stand_key_acryl_stand_set_600-600.jpg"]
+},{
+  "id": 867,
+  "name": "築地銀章魚燒聯名2025閃圓徽章",
+  "series": "2025 築地銀章魚燒聯名",
+  "characters": ["富岡義勇","竈門炭治郎","我妻善逸","嘴平伊之助","不死川玄彌","栗花落香奈乎","胡蝶忍","悲鳴嶼行冥"],
+  "type": "徽章",
+  "manufacturer": "－",
+  "size": "54mm",
+  "price": 715,
+  "checkboxOptions": ["富岡義勇","竈門炭治郎","我妻善逸","嘴平伊之助","不死川玄彌","栗花落香奈乎","胡蝶忍","悲鳴嶼行冥"],
+  "images": ["https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/54giyu_kanbadge/54giyu_kanbadge_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/4tanjiro_kanbadge/4tanjiro_kanbadge_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/14zenitsu_kanbadge/14zenitsu_kanbadge_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/24inosuke_kanbadge/24inosuke_kanbadge_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/44genya_kanbadge/44genya_kanbadge_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/34kanao_kanbadge/34kanao_kanbadge_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/64shinobu_kanbadge/64shinobu_kanbadge_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/74gyomei_kanbadge/74gyomei_kanbadge_600-600.jpg"]
+},{
+  "id": 868,
+  "name": "築地銀章魚燒聯名2025燙金明信片",
+  "series": "2025 築地銀章魚燒聯名",
+  "characters": ["富岡義勇","竈門炭治郎","我妻善逸","嘴平伊之助","不死川玄彌","栗花落香奈乎","胡蝶忍","悲鳴嶼行冥"],
+  "type": "卡片",
+  "manufacturer": "－",
+  "size": "－",
+  "price": 825,
+  "checkboxOptions": ["富岡義勇","竈門炭治郎","我妻善逸","嘴平伊之助","不死川玄彌","栗花落香奈乎","胡蝶忍","悲鳴嶼行冥"],
+  "images": ["https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/55giyu_postcard/55-1_giyu_postcard_01_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/5tanjiro_postcard/5-1_tanjiro_postcard_01_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/15zenitsu_postcard/15-1_zenitsu_postcard_01_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/25inosuke_postcard/25-1_inosuke_postcard_01_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/45genya_postcard/45-1_genya_postcard_01_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/35kanao_postcard/35-1_kanao_postcard_01_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/65shinobu_postcard/65-1_shinobu_postcard_01_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/75gyomei_postcard/75-1_gyomei_postcard_01_600-600.jpg"]
+},{
+  "id": 869,
+  "name": "築地銀章魚燒聯名2025時鐘立牌",
+  "series": "2025 築地銀章魚燒聯名",
+  "characters": ["富岡義勇","竈門炭治郎","我妻善逸","嘴平伊之助","不死川玄彌","栗花落香奈乎","胡蝶忍","悲鳴嶼行冥"],
+  "type": "立牌",
+  "manufacturer": "－",
+  "size": "－",
+  "price": 4400,
+  "checkboxOptions": ["富岡義勇","竈門炭治郎","我妻善逸","嘴平伊之助","不死川玄彌","栗花落香奈乎","胡蝶忍","悲鳴嶼行冥"],
+  "images": ["https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/58giyu_miniacryl_clock/58-1_giyu_clock_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/8tanjiro_miniacryl_clock/8-1_tanjiro_clock_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/18zenitsu_miniacryl_clock/18-1_zenitsu_clock_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/28inosuke_miniacryl_clock/28-1_inosuke_clock_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/48genya_miniacryl_clock/48-1_genya_clock_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/38kanao_miniacryl_clock/38-1_kanao_clock_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/68shinobu_miniacryl_clock/68-1_shinobu_clock_600-600.jpg","https://gindaco-cpshop.com/img/goods/L/kimetsu_mugenjo_L/78gyomei_miniacryl_clock/78-1_gyomei_clock_600-600.jpg"]
+},{
+  "id": 870,
+  "name": "PIZZALA2025立牌",
+  "series": "2025 PIZZALA聯名",
+  "characters": ["伊黑小芭內","甘露寺蜜璃","不死川實彌","竈門炭治郎","時透無一郎"],
+  "type": "立牌",
+  "manufacturer": "－",
+  "size": "－",
+  "price": "－",
+  "checkboxOptions": ["伊黑小芭內","甘露寺蜜璃","不死川實彌","竈門炭治郎","時透無一郎"],
+  "images": ["https://d89889xojlqhy.cloudfront.net/images/editor/2025-07-23/00fc0a86bd4f02995acdd5b3f63401b9688063616b860.jpg"]
+},{
+  "id": 871,
+  "name": "PIZZALA2022立牌",
+  "series": "2022 PIZZALA聯名",
+  "characters": ["栗花落香奈乎","煉獄杏壽郎","富岡義勇","宇髓天元","竈門炭治郎"],
+  "type": "立牌",
+  "manufacturer": "－",
+  "size": "－",
+  "price": "－",
+  "checkboxOptions": ["栗花落香奈乎","煉獄杏壽郎","富岡義勇","宇髓天元","竈門炭治郎"],
+  "images": ["https://stat.ameba.jp/user_images/20220311/00/rainbow-dragonspirit/40/9b/j/o1080059615086032810.jpg?caw=800"]
+},{
+  "id": 872,
+  "name": "PIZZALA2021立牌",
+  "series": "2021 PIZZALA聯名",
+  "characters": ["竈門炭治郎","嘴平伊之助","我妻善逸","竈門禰豆子","胡蝶忍"],
+  "type": "立牌",
+  "manufacturer": "－",
+  "size": "－",
+  "price": "－",
+  "checkboxOptions": ["竈門炭治郎","嘴平伊之助","我妻善逸","竈門禰豆子","胡蝶忍"],
+  "images": ["https://auctions.c.yimg.jp/images.auctions.yahoo.co.jp/image/dr000/auc0207/users/fc6a6d852435943690fb2fc38b808b295816b431/i-img1200x962-1625661191l87qtc237.jpg"]
+},{
+  "id": 873,
+  "name": "宅麵聯名2026立牌",
+  "series": "2026 宅麵聯名",
+  "characters": ["竈門炭治郎","富岡義勇","時透無一郎","伊黑小芭內","甘露寺蜜璃"],
+  "type": "立牌",
+  "manufacturer": "－",
+  "size": "－",
+  "price": 1760,
+  "checkboxOptions": ["竈門炭治郎","富岡義勇","時透無一郎","伊黑小芭內","甘露寺蜜璃"],
+  "images": ["https://pbs.twimg.com/media/HEJSshobIAAHEB4?format=jpg&name=small"]
+},{
+  "id": 874,
+  "name": "宅麵聯名2026隨機圓徽章",
+  "series": "2026 宅麵聯名",
+  "characters": ["竈門炭治郎","富岡義勇","時透無一郎","伊黑小芭內","甘露寺蜜璃"],
+  "type": "徽章",
+  "manufacturer": "－",
+  "size": "－",
+  "price": 550,
+  "checkboxOptions": ["竈門炭治郎","富岡義勇","時透無一郎","伊黑小芭內","甘露寺蜜璃"],
+  "images": ["https://pbs.twimg.com/media/HEJSshnbYAADf1_?format=jpg&name=small"]
+},{
+  "id": 875,
+  "name": "宅麵聯名2026特典小卡",
+  "series": "2026 宅麵聯名",
+  "characters": ["竈門炭治郎","富岡義勇","時透無一郎","伊黑小芭內","甘露寺蜜璃"],
+  "type": "卡片",
+  "manufacturer": "－",
+  "size": "－",
+  "price": "－",
+  "checkboxOptions": ["竈門炭治郎A","富岡義勇A","時透無一郎A","伊黑小芭內A","甘露寺蜜璃A","竈門炭治郎B","富岡義勇B","時透無一郎B","伊黑小芭內B","甘露寺蜜璃B"],
+  "images": ["https://pbs.twimg.com/media/HEJSshnaIAEXv9o?format=jpg&name=900x900","https://pbs.twimg.com/media/HEJSshnbcAAAcAv?format=jpg&name=900x900"]
+},{
+  "id": 876,
+  "name": "明治村聯名2026立牌",
+  "series": "2026 明治村聯名",
+  "characters": ["竈門炭治郎","我妻善逸","富岡義勇","胡蝶忍","時透無一郎"],
+  "type": "立牌",
+  "manufacturer": "－",
+  "size": "－",
+  "price": 1870,
+  "checkboxOptions": ["竈門炭治郎","我妻善逸","富岡義勇","胡蝶忍","時透無一郎"],
+  "images": ["https://prcdn.freetls.fastly.net/release_image/59072/765/59072-765-7027bd63514dae7c0d80c35dd50b4b3c-1000x707.jpg?width=1950&height=1350&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&bg-color=fff"]
+},{
+  "id": 877,
+  "name": "明治村聯名2026大立牌",
+  "series": "2026 明治村聯名",
+  "characters": ["竈門炭治郎","我妻善逸","富岡義勇","胡蝶忍","時透無一郎"],
+  "type": "立牌",
+  "manufacturer": "－",
+  "size": "－",
+  "price": 3850,
+  "checkboxOptions": ["竈門炭治郎","我妻善逸","富岡義勇","胡蝶忍","時透無一郎"],
+  "images": ["https://prcdn.freetls.fastly.net/release_image/59072/765/59072-765-80ddbc4d41075ad2e53aec50e6a495f7-1000x707.jpg?width=1950&height=1350&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&bg-color=fff"]
+},{
+  "id": 878,
+  "name": "明治村聯名2026隨機圓徽章",
+  "series": "2026 明治村聯名",
+  "characters": ["竈門炭治郎","我妻善逸","富岡義勇","胡蝶忍","時透無一郎"],
+  "type": "徽章",
+  "manufacturer": "－",
+  "size": "－",
+  "price": 660,
+  "checkboxOptions": ["竈門炭治郎A","我妻善逸A","富岡義勇A","胡蝶忍A","時透無一郎A","竈門炭治郎B","我妻善逸B","富岡義勇B","胡蝶忍B","時透無一郎B"],
+  "images": ["https://prcdn.freetls.fastly.net/release_image/59072/765/59072-765-5a3b5500c7b11148438ca27c9efcb184-1000x707.jpg?width=1950&height=1350&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&bg-color=fff"]
+},{
+  "id": 879,
+  "name": "明治村聯名2026隨機拍立得小卡",
+  "series": "2026 明治村聯名",
+  "characters": ["竈門炭治郎","我妻善逸","富岡義勇","胡蝶忍","時透無一郎"],
+  "type": "卡片",
+  "manufacturer": "－",
+  "size": "－",
+  "price": 500,
+  "checkboxOptions": ["竈門炭治郎A","我妻善逸A","富岡義勇A","胡蝶忍A","時透無一郎A","竈門炭治郎B","我妻善逸B","富岡義勇B","胡蝶忍B","時透無一郎B"],
+  "images": ["https://prcdn.freetls.fastly.net/release_image/59072/765/59072-765-e84205492d6234bfe61f5aa313904985-1000x707.jpg?width=1950&height=1350&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&bg-color=fff"]
+},{
+  "id": 880,
+  "name": "明治村聯名2026A收納夾",
+  "series": "2026 明治村聯名",
+  "characters": ["竈門炭治郎","我妻善逸","富岡義勇","胡蝶忍","時透無一郎"],
+  "type": "收納夾",
+  "manufacturer": "－",
+  "size": "A4",
+  "price": 550,
+  "checkboxOptions": ["竈門炭治郎","我妻善逸","富岡義勇","胡蝶忍","時透無一郎"],
+  "images": ["https://prcdn.freetls.fastly.net/release_image/59072/765/59072-765-3213af21459f4c3d3e6eca588cbaa2d7-1000x707.jpg?width=1950&height=1350&quality=85%2C75&format=jpeg&auto=webp&fit=bounds&bg-color=fff"]
+},{
+  "id": 881,
+  "name": "AJ2023立牌",
+  "series": "版權繪",
+  "characters": ["甘露寺蜜璃","時透無一郎"],
+  "type": "立牌",
+  "manufacturer": "ANIPLEX",
+  "size": "W70×H120mm",
+  "price": 1200,
+  "checkboxOptions": ["甘露寺蜜璃","時透無一郎"],
+  "images": ["https://online.aniplex.co.jp/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw4de025e4/items/event/aj2023/kimetsu/600_acstand_00.jpg"]
+},{
+  "id": 882,
+  "name": "AJ2026立牌",
+  "series": "2026 AJ",
+  "characters": ["竈門炭治郎","富岡義勇","猗窩座"],
+  "type": "立牌",
+  "manufacturer": "ANIPLEX",
+  "size": "W70×H92mm",
+  "price": 1500,
+  "checkboxOptions": ["竈門炭治郎","富岡義勇","猗窩座"],
+  "images": ["https://online.aniplex.co.jp/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw9a4d4651/items/event/aj2026/kimetsu/acst00.jpg"]
+},{
+  "id": 883,
+  "name": "AJ2026隨機圓徽章",
+  "series": "2026 AJ",
+  "characters": ["竈門炭治郎","富岡義勇","猗窩座"],
+  "type": "徽章",
+  "manufacturer": "ANIPLEX",
+  "size": "56mm",
+  "price": 800,
+  "checkboxOptions": ["竈門炭治郎A","富岡義勇A","猗窩座A","竈門炭治郎B","富岡義勇B","猗窩座B"],
+  "images": ["https://online.aniplex.co.jp/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwf29cf255/items/event/aj2026/kimetsu/can00.jpg"]
+},{
+  "id": 884,
+  "name": "AJ2026隨機小卡",
+  "series": "2026 AJ",
+  "characters": ["竈門炭治郎","富岡義勇","猗窩座"],
+  "type": "立牌",
+  "manufacturer": "ANIPLEX",
+  "size": "H85×W60mm",
+  "price": 300,
+  "checkboxOptions": ["竈門炭治郎A","富岡義勇A","猗窩座A","竈門炭治郎B","富岡義勇B","猗窩座B"],
+  "images": ["https://online.aniplex.co.jp/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dw85236fff/items/event/aj2026/kimetsu/rc00.jpg"]
+},{
+  "id": 885,
+  "name": "AJ2026A4收納夾",
+  "series": "2026 AJ",
+  "characters": ["竈門炭治郎","富岡義勇","猗窩座"],
+  "type": "收納夾",
+  "manufacturer": "ANIPLEX",
+  "size": "A4",
+  "price": 600,
+  "checkboxOptions": ["竈門炭治郎","富岡義勇","猗窩座"],
+  "images": ["https://online.aniplex.co.jp/on/demandware.static/-/Sites-all-master-catalog/ja_JP/dwb4ea72d3/items/event/aj2026/kimetsu/cf00.jpg"]
+},{
+  "id": 886,
+  "name": "鬼滅全編再放送CAFE立志第一期立牌",
+  "series": "2026 鬼滅全編再放送CAFE·立志",
+  "characters": ["富岡義勇","竈門炭治郎","鱗瀧左近次","錆兔","真菰","竈門禰豆子","竈門葵枝","竈門竹雄","竈門花子","竈門茂","竈門六太","我妻善逸","嘴平伊之助","不死川玄彌","栗花落香奈乎"],
+  "type": "立牌",
+  "manufacturer": "UFOTABLE",
+  "size": "－",
+  "price": 2500,
+  "checkboxOptions": ["鱗瀧一門","竈門一家","同期組"],
+  "images": ["https://pbs.twimg.com/media/HEQvwPmaAAEs8L7?format=jpg&name=medium","https://pbs.twimg.com/media/HEQvwPlb0AA87LV?format=jpg&name=medium","https://pbs.twimg.com/media/HEQvwPnagAAJJ7X?format=jpg&name=medium"]
+},{
+  "id": 887,
+  "name": "鬼滅全編再放送CAFE立志第一期隨機長形徽章",
+  "series": "2026 鬼滅全編再放送CAFE·立志",
+  "characters": ["富岡義勇","竈門炭治郎","鱗瀧左近次","錆兔","真菰","竈門禰豆子","我妻善逸","不死川玄彌","栗花落香奈乎"],
+  "type": "徽章",
+  "manufacturer": "UFOTABLE",
+  "size": "－",
+  "price": 600,
+  "checkboxOptions": ["1竈門兄妹","2竈門兄妹","3富岡義勇＆竈門炭治郎","4富岡義勇＆竈門炭治郎","5鱗瀧左近次＆竈門炭治郎","6鱗瀧左近次＆竈門炭治郎","7富岡義勇＆竈門炭治郎","8錆兔＆竈門炭治郎","9真菰＆竈門炭治郎","10錆兔＆真菰","11富岡義勇＆錆兔","12竈門炭治郎＆我妻善逸","13不死川玄彌＆竈門炭治郎","14栗花落香奈乎＆竈門炭治郎"],
+  "images": ["https://pbs.twimg.com/media/HEQvwPobgAE4qDr?format=jpg&name=medium"]
 }
 ]
 
