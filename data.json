@@ -1,5 +1,49 @@
 [
   {
+    "id": 888,
+    "name": "手作社2026隨機立牌",
+    "series": "2026 手作社",
+    "characters": ["竈門炭治郎","嘴平伊之助","煉獄杏壽郎","伊黑小芭內","我妻善逸","不死川玄彌","宇髓天元","不死川實彌","竈門禰豆子","神崎葵","甘露寺蜜璃","悲鳴嶼行冥","村田","栗花落香奈乎","胡蝶忍","富岡義勇","時透無一郎"],
+    "type": "立牌",
+    "manufacturer": "UFOTABLE",
+    "size":"－",
+    "price": 900,
+    "images": ["https://www.ufotable.co.jp/kimetsu/event/handmadeclub2026/img/goods/4582711948988.webp","https://www.ufotable.co.jp/kimetsu/event/handmadeclub2026/img/goods/4582711948995.webp"],
+    "checkboxOptions": ["竈門炭治郎","嘴平伊之助","煉獄杏壽郎","伊黑小芭內","我妻善逸","不死川玄彌","宇髓天元","不死川實彌","竈門禰豆子","神崎葵","甘露寺蜜璃","悲鳴嶼行冥","村田","栗花落香奈乎","胡蝶忍","富岡義勇","時透無一郎"]
+  },{
+    "id": 891,
+    "name": "手作社2026隨機小卡",
+    "series": "2026 手作社",
+    "characters": ["竈門炭治郎","嘴平伊之助","煉獄杏壽郎","伊黑小芭內","我妻善逸","不死川玄彌","宇髓天元","不死川實彌","竈門禰豆子","神崎葵","甘露寺蜜璃","悲鳴嶼行冥","村田","栗花落香奈乎","胡蝶忍","富岡義勇","時透無一郎"],
+    "type": "卡片",
+    "manufacturer": "UFOTABLE",
+    "size":"W60×H85mm",
+    "price": 440,
+    "images": ["https://www.ufotable.co.jp/kimetsu/event/handmadeclub2026/img/goods/4582711949008.webp","https://www.ufotable.co.jp/kimetsu/event/handmadeclub2026/img/goods/4582711949015.webp"],
+    "checkboxOptions": ["竈門炭治郎","嘴平伊之助","煉獄杏壽郎","伊黑小芭內","我妻善逸","不死川玄彌","宇髓天元","不死川實彌","竈門禰豆子","神崎葵","甘露寺蜜璃","悲鳴嶼行冥","村田","栗花落香奈乎","胡蝶忍","富岡義勇","時透無一郎"]
+  },{
+    "id": 890,
+    "name": "手作社2026特典餐墊",
+    "series": "2026 手作社",
+    "characters": ["竈門炭治郎","嘴平伊之助","煉獄杏壽郎","伊黑小芭內","我妻善逸","不死川玄彌","宇髓天元","不死川實彌","竈門禰豆子","神崎葵","甘露寺蜜璃","悲鳴嶼行冥","村田","栗花落香奈乎","胡蝶忍","富岡義勇","時透無一郎"],
+    "type": "餐墊",
+    "manufacturer": "UFOTABLE",
+    "size":"－",
+    "price": 1100,
+    "images": ["https://www.ufotable.co.jp/kimetsu/event/handmadeclub2026/img/goods/lm_web_a.webp","https://www.ufotable.co.jp/kimetsu/event/handmadeclub2026/img/goods/lm_web_b.webp"],
+    "checkboxOptions": ["竈門炭治郎＆嘴平伊之助＆煉獄杏壽郎＆伊黑小芭內＆我妻善逸＆不死川玄彌＆宇髓天元＆不死川實彌","竈門禰豆子＆神崎葵＆甘露寺蜜璃＆栗花落香奈乎＆胡蝶忍＆悲鳴嶼行冥＆村田＆富岡義勇＆時透無一郎"]
+  },{
+    "id": 889,
+    "name": "手作社2026特典明信片",
+    "series": "2026 手作社",
+    "characters": ["竈門炭治郎","嘴平伊之助","煉獄杏壽郎","伊黑小芭內","我妻善逸","不死川玄彌","宇髓天元","不死川實彌","竈門禰豆子","神崎葵","甘露寺蜜璃","悲鳴嶼行冥","村田","栗花落香奈乎","胡蝶忍","富岡義勇","時透無一郎"],
+    "type": "卡片",
+    "manufacturer": "UFOTABLE",
+    "size":"－",
+    "price": 650,
+    "images": ["https://www.ufotable.co.jp/kimetsu/event/handmadeclub2026/img/goods/psc_web_a.webp","https://www.ufotable.co.jp/kimetsu/event/handmadeclub2026/img/goods/psc_web_b.webp"],
+    "checkboxOptions": ["竈門炭治郎","嘴平伊之助","煉獄杏壽郎","伊黑小芭內","我妻善逸","不死川玄彌","宇髓天元","不死川實彌","竈門禰豆子","神崎葵","甘露寺蜜璃","栗花落香奈乎","胡蝶忍","悲鳴嶼行冥","村田","富岡義勇","時透無一郎"]
+  },{
     "id": 37,
     "name": "誕生祭2025-2026立牌",
     "series": "2025-2026 誕生祭",
